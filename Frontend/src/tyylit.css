@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=VT323&display=swap');
+body {
+   font-family: 'VT323', monospace;
+   font-size: 1.2em;
+   overflow: hidden;
+}
+
+h1 {
+   margin-top: 0em;
+   margin-bottom: 0.3em;
+}
+
+#Sel{
+    width: 48.5%;
+    float: right;
+    margin-right: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+#valinnat{
+    float: right;
+    margin-right: 0.8em;
+
+}
+
+#lomake {
+   margin-top: 2em;
+   display: block;
+   width: 18%;
+   height: auto;
+   border: 4px inset turquoise;
+   
+}
+label {
+   background-color: turquoise;
+   padding-bottom: 0.18em;
+   margin-left: 0.2em;
+   padding-left: 0.4em;
+}
+
+#jas1_inp, #jas2_inp, #jas3_inp, #jas4_inp, #jas5_inp{
+   margin-left: 6.05em;
+   height: 1.27em;
+}
+
+#jnimi_inp {
+   margin-left: 1.85em;
+   height: 1.27em;
+}
+
+br {
+   margin-bottom: 0.8em;
+}
+#tallenna {
+   margin-top: 0.8em;
+   margin-left: 0.2em;
+   font-family: 'VT323', monospace;
+   font-size: 1em;
+}
+
+#lomakkeen_spac {
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 0.5em;
+}
+
+#pun {
+  height: 0.5em;
+  background-color: turquoise;
+  width: 98.7%;
+  bottom: 91.8%;
+  margin-right: 0.1em;
+  border: 5px inset turquoise;
+  animation-name: pu;
+  animation-duration: 6s; 
+  animation-iteration-count: infinite;
+  z-index: 1;
+  position: absolute;
+}
+
+#lomake_sm_vi {
+  margin-left: 0.5em;
+}
+
+button {
+  background-color: #FF9999;
+  color: red;
+}
+
+#g_linkki {
+  margin-top: 2em;
+  font-size: 1.4em;
+}
+
+@keyframes pu {
+  0%   {background-color: turquoise;}
+  100% {background-color: white;}
+}
+
+#ul_n4 {
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+#s_j_li {
+    margin-top: 2em;
+}
+
+#kil_lis {
+    margin-top: 2em;
+    font-size: 1.1em;
+}
+
+#takaisin {
+   width: 7em;
+   height: 2em;
+}
+
+#valk {
+    width: 105vw;
+    height: 1.2em;
+    background-color: white;
+    animation-name: va;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+    bottom: 91.8%;
+    z-index: 2;
+    position: absolute;
+
+}
+
+@keyframes va {
+  from {
+     transform : translateX(-1em);
+  }
+  
+  to {
+     transform : translateX(101em);
+  }
+}
