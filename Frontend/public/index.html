@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <!-- React -->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <!-- firestore -->
+
+        <link href="{{ url_for('static', filename='tyylit.css') }}" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8"/>
+        <title>Tulospalvelu 2022 syksy</title>
+    </head>
+    <body>
+    <h1>Tulospalvelu</h1>
+    <!-- toiminnallisuus -->
+    <script href="{{ url_for('static', filename='index.js') }}"></script>
+    <div id="valk"></div>
+    <div id="pun"></div>
+    <div id="uloin_div"></div>
+    </body>
+</html>
+
