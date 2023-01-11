@@ -10,4 +10,4 @@ Backend on koostettu Python:in Flask-Framework:illa, Backend keskustelee tietoka
 
 Sovellus ei ole täysin toimiva ja nojaa hyvin specifiseen Firestoren hierarkiaan toimiakseen. Testausta on suoritettu lokaalisti, mikä näkyy sovelluksen konfiguroinnissa (URL:it jne.). Tästä Githubiin sopivasta versiosta puuttuu tavaraa, kuten favicon.ico. 
 
-Sovellus Github:iin lähinnä näytteeksi, vaikea löytää oikeita intressejä tälläisen ylläpitoon. 
+Sovellus Github:iin lähinnä näytteeksi, vaikea löytää oikeita intressejä tälläisen ylläpitoon:D
