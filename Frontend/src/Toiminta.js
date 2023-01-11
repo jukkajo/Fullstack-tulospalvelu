@@ -7,14 +7,14 @@ import Select from 'react-select';
 import { getFirestore, collection, getDocs, addDoc } from 'firebase/firestore/lite';
 
 const firebaseConfig = {
-  //nämä on kaikki muutettu, ei pidetä arkaluontoista dataa täällä :D
-  apiKey: "AIeqSyCsTT9kdLt9XiWfT5qUmTYZx3HB7XG2X)",
-  authDomain: "TP2022-366906.firebaseapp.com",
-  projectId: "TP2022-366906",
-  storageBucket: "TP2022-366906.appspot.com",
-  messagingSenderId: "252646584541",
-  appId: "1:258459587731:web:daf7e7a8c5a7723469ryt4",
-  measurementId: "G-B6S432H8TJ" //tätä ei tarvittaisi välttämättä
+  //nämä tyhjäksi ei pidetä arkaluontoista dataa täällä :D
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "" //tätä ei tarvittaisi välttämättä
 };
 
 const app = initializeApp(firebaseConfig);
