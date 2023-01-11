@@ -7,4 +7,6 @@ Reactin tilaan ja selaimen sessioon/localstorageen säilöttyyn dataan. Sovelluk
 
 Backend on koostettu Python:in Flask-Framework:illa, Backend keskustelee tietokannan kanssa ja varmentaa käyttäjän oikeuden päästä resursseihin. Tietokanta hyödyntää Googlen Firebasen Firestorea. Backend vastaanottaa url-parametreinä tietoa, jota se käsittelee ja tallentaan tietokantaa. Resurssit, joita Frontend pyytää, toteutetaan specifiseen URL:iin sidottuna "Response:na", json-muotoisena datana.
 
-Sovellus ei ole täysin toimiva ja nojaa hyvin specifiseen Firestoren hierarkiaan. Sovellus Github:iin lähinnä näytteeksi, vaikea löytää oikeita intressejä tälläisen ylläpitoon.
+Sovellus ei ole täysin toimiva ja nojaa hyvin specifiseen Firestoren hierarkiaan. Testausta on suoritettu lokaalisti, mikä näkyy sovelluksen konfiguroinnissa (URL:it jne.).
+
+Sovellus Github:iin lähinnä näytteeksi, vaikea löytää oikeita intressejä tälläisen ylläpitoon.
